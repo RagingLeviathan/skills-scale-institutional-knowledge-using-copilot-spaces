@@ -19,6 +19,7 @@ After each sprint, release, or important milestone. Also after incidents.
 
 ## Tracking Improvements
 - Add action items to the project backlog or issues with clear owners and timelines
+- Each action item must have a named owner — use role names from [octoacme-roles-and-personas.md](octoacme-roles-and-personas.md) to assign accountability
 - Review outstanding actions in the weekly PM sync
 
 ## Example Action Item Template
