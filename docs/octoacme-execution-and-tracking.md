@@ -20,12 +20,14 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Security scanning in CI (coordinated by Security Champion)
+- QA Lead runs manual acceptance testing for feature sign-off
+- UX Designer reviews UI implementations against design specs
+- Technical Writer confirms documentation is updated before feature ships
 
 ## Reporting & Metrics
 - Track velocity and burndown
-- Monitor success metrics identified in the Project One-pager
+- Monitor success metrics identified in the Project One-pager (Data Analyst owns dashboards)
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
@@ -35,6 +37,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
+- [ ] CI configured for tests, lint, and security scanning
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] QA Lead sign-off obtained before merging to release branch
+- [ ] Security Champion reviewed any changes to security-sensitive code or dependencies
